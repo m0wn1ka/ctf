@@ -47,7 +47,11 @@ MzZjOGRlNWUiLCJhZG1pbiI6dHJ1ZSwiZXhwIjoxNzEzMDkzMzM2fQo.
 C:\home\radha> echo '{"alg":"none","typ":"JWT"}'|base64
 eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0K
 
-eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0K.eyJ1c2VyIjoidXNlcjEiLCJwdWJsaWNfaWQiOiJlZWJlNGJkNy05YzQ0LTRjODQtYTliYi1kYWQz
+eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0K.eyJ1c2VyIjoidXNlcjEiLCJwdWJsaWNfaWQiOiJlZWJlNGJkNy05YzQ0LTRjODQtYTliYi1kYWQzMzZjOGRlNWUiLCJhZG1pbiI6dHJ1ZSwiZXhwIjoxNzEzMDkzMzM2fQo.
 ```
-MzZjOGRlNWUiLCJhZG1pbiI6dHJ1ZSwiZXhwIjoxNzEzMDkzMzM2fQo.
-             
+## try with type:hs256 without signature
+```
+C:\home\radha> echo '{"alg":"HS256","typ":"JWT"}'|base64
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9Cg==
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9Cg.eyJ1c2VyIjoidXNlcjEiLCJwdWJsaWNfaWQiOiJlZWJlNGJkNy05YzQ0LTRjODQtYTliYi1kYWQzMzZjOGRlNWUiLCJhZG1pbiI6ZmFsc2UsImV4cCI6MTcxMzA5MzMzNn0.
