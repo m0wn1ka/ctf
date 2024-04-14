@@ -25,3 +25,7 @@ User not found or no cookie value associated with the user.
 - `login failed. Please check your username and password.`
 - when passwod is set to `0` it says`Please enter both username and password.`
 - 
+```
+admin' OR 1=1'/*
+looks like it is using prepared stmts for username
+```
