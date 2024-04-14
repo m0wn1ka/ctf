@@ -163,3 +163,6 @@ flag = [~(c^i)*(-int(1/(5**0.5) * ((1 + 5**0.5)**1 / 2 - (1 - 5**0.5)**1 / 2))) 
 print(tostr(flag))
 #  0CTF{___R___E__D___A___C____T_____E____D______}
 ```
+- 0CTF{@_j0k3_0r_@_cl3v3r_@nd_funny_r3m@rk}
+## score board
+![image](https://github.com/m0wn1ka/ctf/assets/127676379/619a4f99-b0f3-46f5-a3b3-eb5413f62e66)
