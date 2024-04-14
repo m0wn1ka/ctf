@@ -154,3 +154,12 @@ EXPOSE 80
 CMD python3 index.pyroot@traboda:/#
 ```
 - 0CTF{Congratulations_for_finding_the_flag}
+## one liner/rev
+- description
+- ![image](https://github.com/m0wn1ka/ctf/assets/127676379/641852b0-f608-4b63-a778-ca07fd19e971)
+```
+flag = "ƃŰŶŉůļźŞŷŭŪƄŰŘŰŧŖŔŦĦŨĬƀźōşŋůĲňĳźĖőƃũťũŸŪĞ"
+flag = [~(c^i)*(-int(1/(5**0.5) * ((1 + 5**0.5)**1 / 2 - (1 - 5**0.5)**1 / 2))) + len(flag) * 6 + 15 for i, c in enumerate([ord(a) for a in flag[::-int(1/(5**0.5) * ((1 + 5**0.5)**1 / 2 - (1 - 5**0.5)**1 / 2))]])]
+print(tostr(flag))
+#  0CTF{___R___E__D___A___C____T_____E____D______}
+```
