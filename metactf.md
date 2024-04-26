@@ -1,6 +1,9 @@
+## ctftime scoreboard
+![image](https://github.com/m0wn1ka/ctf/assets/127676379/60859d5e-9f9c-4ae5-a0aa-bacdd5bbfa7f)
+
 ## crypto
 ![image](https://github.com/m0wn1ka/ctf/assets/127676379/f765be57-32d9-4abc-b29f-ad863947ee81)
-
+- here it is just mapping of alpabets to the numbers like a-1 b-2
 ![image](https://github.com/m0wn1ka/ctf/assets/127676379/d0d3d4c3-fe70-4f2c-9532-ec3f4ccfadd8)
 
  	DawgCTF{cipher_on_easy_mode}
@@ -8,6 +11,9 @@
 ![image](https://github.com/m0wn1ka/ctf/assets/127676379/6e73284e-7ba1-4b14-98e7-70dce37852e5)
 - unzip the zip file
 - we see a dumster file with names and hashes
+- this is the dumpster file
+![image](https://github.com/m0wn1ka/ctf/assets/127676379/88296ab6-91e7-4cfb-b60b-e7956d4aa465)
+- we write a python script to get the hashes
 ```
 fp=open("dumpsterfire","r")
 i=0
